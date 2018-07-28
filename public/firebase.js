@@ -62,7 +62,7 @@ ref.on("value", function(snapshot) {
       var event = data.val();
 
 
-      table2.row.add( [event.timestamp, event.location, event.pic, event.nature, event.seriousness, event.shortdes, event.watson]).draw();
+      table2.row.add( [event.TimeStamp, event.Location, event.Picture, event.Nature, event.Seriousness, event.Description, event.WatsonClassifier]).draw();
 
   });
 
